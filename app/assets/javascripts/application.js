@@ -13,4 +13,17 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap-sprockets
 //= require_tree .
+
+// $( document ).ready(function() {
+//   $(".social-icon-container .social-roll").click(function() {
+//     window.location = $(this).attr('location');
+//   });
+//   // $(".social-icon-container .twitter-roll").click(function() {
+//   //   window.location = 'http://www.twitter.com/nilesh_pandey'
+//   // });
+//   // $(".social-icon-container .facebook-roll").click(function() {
+//   //   window.location = 'http://www.facebook.com/nilesh.pandey'
+//   // });
+// });

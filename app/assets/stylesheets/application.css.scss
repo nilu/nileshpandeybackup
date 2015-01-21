@@ -1,0 +1,90 @@
+@import 'bootstrap';
+@import 'bootstrap-sprockets';
+@import "font-awesome";
+
+html, body {
+  background-color: #0d0d0f;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-brand {
+  margin-left: 0px !important;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.main {
+  width: 450px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.main img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.social-roll {
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  float: left;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.social-roll:hover {
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+
+.twitter-roll {
+  background-image: url('/assets/twitter-48gray-circle.png');
+}
+
+.twitter-roll:hover {
+  background-image: url('/assets/twitter-48circle.png');
+}
+
+.facebook-roll {
+  background-image: url('/assets/facebook-48gray-circle.png');
+}
+
+.facebook-roll:hover {
+  background-image: url('/assets/facebook-48circle.png');
+}
+.linkedin-roll {
+  background-image: url('/assets/linkedin-48gray-circle.png');
+}
+
+.linkedin-roll:hover {
+  background-image: url('/assets/linkedin-48circle.png');
+}
+
+.social-icon-container {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 204px;
+}
