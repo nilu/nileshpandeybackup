@@ -29,10 +29,10 @@ test: &test
 
 production:
   encoding: utf8
-  username: b0d92b5079d8d7
-  password: 2bc0c24c
+  username: b5ffe9ca93a64a
+  password: c7658d10
   host: us-cdbr-iron-east-01.cleardb.net
   adapter: mysql2
-  database: heroku_69576083c26d53d
+  database: heroku_d20eb61759963a3
   pool: 5
   timeout: 5000
