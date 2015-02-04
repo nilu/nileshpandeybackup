@@ -21,6 +21,9 @@ gem 'sass-rails'
 gem 'font-awesome-rails'
 gem 'sass'
 
+gem 'unicorn'
+gem 'rack-timeout'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', :platforms => :ruby
 
