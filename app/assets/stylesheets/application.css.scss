@@ -101,3 +101,19 @@ h1 {
   display: block;
   width: 204px;
 }
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px) { 
+  .main {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .main img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
