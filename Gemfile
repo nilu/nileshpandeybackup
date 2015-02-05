@@ -23,6 +23,9 @@ gem 'sass'
 
 gem 'unicorn'
 gem 'rack-timeout'
+gem 'sitemap_generator'
+gem 'carrierwave'
+gem 'fog'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', :platforms => :ruby
