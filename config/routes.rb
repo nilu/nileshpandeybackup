@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   get '/' => 'landingpage#index', :as => 'root'
   post '/sign_up' => 'sign_up#create', :as => 'sign_up'
-
+  
+  get '/sitemap.xml.gz' => 'sitemaps#show'
 end
